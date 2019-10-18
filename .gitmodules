@@ -1,3 +1,6 @@
 [submodule "dev_manage/cli-deploy"]
 	path = dev_manage/cli-deploy
 	url = git@git.mesalab.cn:tsg/cli-deploy.git
+[submodule "dev_manage/oam"]
+	path = dev_manage/oam
+	url = git@git.mesalab.cn:tsg/oam.git
