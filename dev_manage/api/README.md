@@ -1,4 +1,5 @@
-api服务部署脚本说明
+api服务部署脚本说明 （首先调整docker_init.sh脚本中数据库连接参数）
+
 1、手动解压docker.zip文件到/home目录
 
 2、把api服务bifang_api.jar 放在/home/docker/bifang/api目录下
