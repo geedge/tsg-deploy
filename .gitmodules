@@ -4,3 +4,6 @@
 [submodule "dev_manage/oam"]
 	path = dev_manage/oam
 	url = git@git.mesalab.cn:tsg/oam.git
+[submodule "tsg-scripts"]
+	path = tsg-scripts
+	url = git@git.mesalab.cn:tango/tsg-scripts.git
