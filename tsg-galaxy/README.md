@@ -6,7 +6,7 @@
 
     1：服务器机器关闭防火墙
     2：服务器安装JDK，版本：1.8.0_73
-    3：编辑服务器上 vim/etc/selinux/config 把其中的SELINUX=enforce改成disabled
+    3：编辑服务器上 /etc/selinux/config 把其中的SELINUX=enforce改成disabled
 
 ## 提供自动安装脚本，操作步骤：
 
