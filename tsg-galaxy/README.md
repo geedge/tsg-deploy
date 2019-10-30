@@ -13,7 +13,8 @@
     1.登录信息港环境 192.168.40.153 服务器，将 /home/bigdata/docker/Tsg_Galaxy_v2.0.20190630 文件夹整体移动到要部署的服务器上。
 
     2.打开setup_all.sh按照模板和提示修改内容。
-
+        (1)注意DRUID_TIMEZONE配置的格式，因sed命令的原因，/ 会引起问题，固只修改 Asia 和 Almaty 中间勿动
+        
     3.因报表和Druid都需要使用Mariadb目前与页面使用同一个数据库，需要修改报表使用的数据库名和创建Druid数据库；方法如下：
         (1)在Mariadb所在机器使用命令进入mysql -u root -p  (如用户名不是root自行修改)
         
