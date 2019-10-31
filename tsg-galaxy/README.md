@@ -21,3 +21,19 @@
         (2)进入后使用命令：create database druid DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
     4.配置修改，druid数据库创建完成后，执行setup_all.sh 脚本等待过后即完成安装。
+
+
+## 简单的命令
+
+- ### 查看容器ID
+        使用命令 docker ps 查看要重启容器的ID即 CONTAINER ID 下的一个字符
+
+- ### 重启docker容器
+        后使用命令 docker restart 要重启容器的ID
+
+- ### 进入容器
+        docker exec -it 要进入容器的ID /bin/bash
+
+## UI界面
+
+    浏览器登录 服务器IP:5050 进入容器管理界面
