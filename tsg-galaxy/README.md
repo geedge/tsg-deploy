@@ -11,6 +11,7 @@
 ## 提供自动安装脚本，操作步骤：
 
     1.登录信息港环境 192.168.40.153 服务器，将 /home/bigdata/docker/Tsg_Galaxy_v2.0.20190630 文件夹整体移动到要部署的服务器上。
+        (1)修改./Tsg_Galaxy_v2.0.20190630/docker_install/daemon.json 内的 data-root，将路径指向服务器较大的硬盘上，此目录指定了docker的镜像等信息存储路径。
 
     2.打开setup_all.sh按照模板和提示修改内容。
         (1)注意DRUID_TIMEZONE配置的格式，因sed命令的原因，/ 会引起问题，固只修改 Asia 和 Almaty 中间勿动
