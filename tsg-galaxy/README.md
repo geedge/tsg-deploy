@@ -5,6 +5,8 @@
 ## 安装前提：
 
     1：服务器机器关闭防火墙
+        systemctl stop firewalld  //关闭
+        systemctl disable firewalld //取消开机启动
     2：服务器安装JDK，版本：1.8.0_73
     3：编辑服务器上 /etc/selinux/config 把其中的SELINUX=enforce改成disabled
 
@@ -19,7 +21,7 @@
     3.因报表和Druid都需要使用Mariadb目前与页面使用同一个数据库，需要修改报表使用的数据库名和创建Druid数据库；方法如下：
         (1)在Mariadb所在机器使用命令进入mysql -u root -p  (如用户名不是root自行修改)
         
-        (2)进入后使用命令：create database druid DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+        (2)进入后使用命令： create database druid DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
     4.配置修改，druid数据库创建完成后，执行setup_all.sh 脚本等待过后即完成安装。
 
