@@ -2,7 +2,6 @@ api服务部署脚本说明 （注将docker.zip、bifang.zip、docker_init.sh、
 
 bifang.zip文件：存放相关程序jar包，如有最新程序jar包，需手动解压文件到/home目录下替换目录中相关jar包即可
 
-bifang_init_param.conf文件：需手动配置相关参数后，执行脚本
 
 1、首先调整bifang_init_param.conf参数配置文件 
 
