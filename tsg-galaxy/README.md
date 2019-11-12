@@ -22,6 +22,7 @@
         (1)在Mariadb所在机器使用命令进入mysql -u root -p  (如用户名不是root自行修改)
         
         (2)进入后使用命令： create database druid DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+            如果二次安装需先删除之前的数据库， drop database druid；
 
     4.配置修改，druid数据库创建完成后，执行setup_all.sh 脚本等待过后即完成安装。
 
