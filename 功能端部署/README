@@ -1,4 +1,5 @@
 2919.11.14
-更新了role/mrzcpd/templates/mrglobal.conf.inline.j2配置文件，添加不同接入模式下的判断
-更新了roles/kni/templates/gdev.conf.j2，对sendto_gdev_ip添加判断
-修改了不同部署环境的剧本目录名称
+1、更新了role/mrzcpd/templates/mrglobal.conf.inline.j2配置文件，添加不同接入模式下的判断
+2、更新了roles/kni/templates/gdev.conf.j2，对sendto_gdev_ip添加判断
+3、更新了libkni.so,修复了pc双臂模式下sapp无法正常运行的故障，更新了roles/kni/tasks/main.yml，添加了copy任务
+4、修改了不同部署环境的剧本目录名称
