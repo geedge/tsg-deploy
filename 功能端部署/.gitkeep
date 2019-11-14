@@ -1,1 +1,3 @@
-更新
+更新了role/mrzcpd/templates/mrglobal.conf.inline.j2配置文件，添加不同接入模式下的判断
+更新了roles/kni/templates/gdev.conf.j2，对sendto_gdev_ip添加判断
+修改了不同部署环境的剧本目录名称
