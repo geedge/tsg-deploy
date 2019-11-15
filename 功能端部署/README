@@ -1,3 +1,6 @@
+2019.11.15
+1、更新了tsg-env-mxn的setup文件，解决了mxn testpoint开机启动异常的故障
+
 2919.11.14
 1、更新了role/mrzcpd/templates/mrglobal.conf.inline.j2配置文件，添加不同接入模式下的判断
 2、更新了roles/kni/templates/gdev.conf.j2，对sendto_gdev_ip添加判断
